@@ -1,0 +1,62 @@
+$blue: #1752B5;
+$yellow: #FEBD2C;
+$grey: #E6E6E6;
+$red: #FC2546;
+
+.btn-with-icon {
+    text-align: center;
+    padding: 15px;
+    min-width: 154px;
+    font-weight: 500;
+    color: #FFFFFF;
+    align-items: center;
+    display: flex;
+    grid-column-gap: 10px;
+    font-size: 16px;
+
+    >i {
+        font-size: 20px;
+    }
+}
+
+.btn {
+    &-blue {
+        text-align: center;
+        padding: 15px 35px;
+        min-width: 154px;
+        font-weight: 500;
+        color: #FFFFFF;
+        background: $blue;
+    }
+
+    &-red {
+        @extend .btn-with-icon;
+        background: $red;
+    }
+
+    &-orange {
+        @extend .btn-with-icon;
+        background: $yellow;
+    }
+
+    &-more {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        text-decoration-line: underline;
+        color: #1296CF
+    }
+}
+
+.two-column {
+    display: flex;
+
+    >div {
+        flex: 1 1 50%;
+    }
+
+    @media only screen and (max-width:680px) {
+        flex-direction: column;
+        grid-gap: 30px;
+    }
+}

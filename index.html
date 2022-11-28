@@ -1,0 +1,777 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <title>Keys Page</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div id="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="header__logo">
+                <img src="images/logo-black.png">
+            </div>
+
+            <div class="header__bar">
+                <nav class="header__menu" id="header-menu">
+                    <a href="#">Locksmith Prices List</a>
+                    <a href="#">Keys4U Blog</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Request a quote</a>
+                </nav>
+                <div class="header__search">
+                    <label for="search">
+                        <i class="ri-search-line"></i>
+                        <input id="search" placeholder="Search for Products, Articles" type="search">
+                    </label>
+                </div>
+            </div>
+
+            <div class="header__block">
+                <a href="tel:03333052993" class="btn btn-orange phone">
+                    <i class="ri-phone-line"></i>
+                    033 3305 2993
+                </a>
+                <a href="/login" class="btn btn-gray login">
+                    <i class="ri-user-line"></i>
+                    login
+                </a>
+                <div class="basket">
+                    <span aria-label="cart"><i class="ri-shopping-cart-fill"></i></span>
+                </div>
+            </div>
+            <hr />
+        </div>
+    </header>
+
+    <nav class="menu" id="main-menu">
+        <div class="container">
+            <ul class="menu__list">
+                <li class="menu__main"><a href="/#">Locksmith Services</a></li>
+                <li class="menu__main">
+                    <a href="/#">Locksmith Near Me</a>
+                    <ul class="menu__sub">
+                        <li class="title"><a href="/london/north-london-locksmith">Locksmith North London</a></li>
+                        <li><a href="/london/tufnell-park-locksmith">Tufnell Park Locksmith</a></li>
+                        <li><a href="/london/finsbury-park-locksmith">Finsbury Park Locksmith</a></li>
+                        <li><a href="/london/wood-green-locksmith">Wood Green Locksmith</a></li>
+                        <li><a href="/london/totteridge-locksmith">Totteridge Locksmith</a></li>
+                        <li><a href="/london/winchmore-hill-locksmith">Winchmore Hill Locksmith</a></li>
+                        <li><a href="/london/whetstone-locksmith">Whetstone Locksmith</a></li>
+                        <li><a href="/london/tottenham-locksmith">Tottenham Locksmith</a></li>
+                        <li><a href="/london/highgate-locksmith">Highgate Locksmith</a></li>
+                        <li><a href="/london/archway-locksmith">Archway Locksmith</a></li>
+                        <li><a href="/london/gospel-oak-locksmith">Gospel Oak Locksmith</a></li>
+                        <li><a href="/london/highbury-locksmith">Highbury Locksmith</a></li>
+                        <li><a href="/london/holloway-locksmith">Holloway Locksmith</a></li>
+                        <li><a href="/london/southgate-locksmith">Southgate Locksmith</a></li>
+                        <li><a href="/london/upper-edmonton-locksmith">Upper Edmonton Locksmith</a></li>
+                        <li><a href="/london/palmers-green-locksmith">Palmers Green Locksmith</a></li>
+                        <li><a href="/london/stoke-newington-locksmith">Stoke Newington Locksmith</a></li>
+                        <li><a href="/london/hornsey-locksmith">Hornsey Locksmith</a></li>
+                        <li><a href="/london/locksmith-friern-barnet">locksmith Friern Barnet</a></li>
+                        <li><a href="/london/north-finchley-locksmith">North Finchley Locksmith</a></li>
+                        <li><a href="/london/new-southgate-locksmith">New Southgate Locksmith</a></li>
+                        <li><a href="/london/finchley-central-locksmith">Finchley Central Locksmith</a></li>
+                        <li><a href="/london/locksmith-finchley-road">Finchley Locksmiths</a></li>
+                        <li><a href="/london/east-finchley-locksmith">East Finchley Locksmith</a></li>
+                        <li><a href="/london/seven-sisters-locksmith">Seven Sisters Locksmith</a></li>
+                        <li><a href="/london/muswell-hill-locksmith">Muswell Hill Locksmith</a></li>
+                        <li><a href="/london/hoxton-locksmith">Hoxton Locksmith</a></li>
+                        <li><a href="/london/tottenham-hale-locksmith">Tottenham Hale Locksmith</a></li>
+                        <li><a href="/london/edmonton-locksmith">Edmonton Locksmith</a></li>
+                        <li><a href="/london/locksmith-kings-cross">Locksmith Kings Cross</a></li>
+                        <li><a href="/london/lower-edmonton-locksmith">Lower Edmonton Locksmith</a></li>
+                        <li><a href="/london/islington-locksmith">Islington Locksmith</a></li>
+                        <li class="title"><a href="/london/north-west-london-locksmith">Locksmith North West
+                                London</a></li>
+                        <li><a href="/london/locksmith-brent-cross">locksmith Brent Cross</a></li>
+                        <li><a href="/london/park-royal-locksmith">Park Royal Locksmith</a></li>
+                        <li><a href="/london/locksmith-neasden">Locksmith Neasden</a></li>
+                        <li><a href="/london/locksmith-west-hampstead">Locksmith West Hampstead</a></li>
+                        <li><a href="/london/locksmith-willesden">Locksmith Willesden</a></li>
+                        <li><a href="/london/locksmith-euston">Locksmith Euston</a></li>
+                        <li><a href="/london/locksmith-colindale">Colindale Locksmiths</a></li>
+                        <li><a href="/london/locksmith-cricklewood">Cricklewood Locksmiths</a></li>
+                        <li><a href="/london/locksmith-queensbury">Locksmith Queensbury</a></li>
+                        <li><a href="/london/marylebone-locksmith">Marylebone Locksmith</a></li>
+                        <li><a href="/london/locksmith-golders-green">Golders Green Locksmiths</a></li>
+                        <li><a href="/london/locksmith-st-johns-wood">St John's Wood Locksmiths</a></li>
+                        <li><a href="/london/locksmith-mill-hill">Locksmith Mill Hill</a></li>
+                        <li><a href="/london/locksmith-kilburn">Kilburn Locksmiths</a></li>
+                        <li><a href="/london/locksmith-kentish-town">Kentish Town Locksmiths</a></li>
+                        <li><a href="/london/locksmith-chalk-farm">locksmith Chalk Farm</a></li>
+                        <li><a href="/london/swiss-cottage-locksmith">Swiss Cottage Locksmith</a></li>
+                        <li><a href="/london/locksmith-hampstead">Hampstead Locksmiths</a></li>
+                        <li><a href="/london/locksmith-hendon">Hendon Locksmiths</a></li>
+                        <li><a href="/london/locksmith-belsize-park">locksmith Belsize Park</a></li>
+                        <li><a href="/emergency-locksmith-west-hampstead">Emergency locksmith West Hampstead</a>
+                        </li>
+                        <li><a href="/london/locksmith-camden-town">Camden Locksmiths</a></li>
+                        <li class="title"><a href="/london/east-london-locksmith">Locksmith East London</a></li>
+                        <li><a href="/london/walthamstow-locksmith">Walthamstow Locksmith</a></li>
+                        <li><a href="/london/woodford-locksmith">Woodford Locksmith</a></li>
+                        <li><a href="/london/homerton-locksmith">Homerton Locksmith</a></li>
+                        <li><a href="/london/leytonstone-square-locksmith">Leytonstone Square Locksmith</a></li>
+                        <li><a href="/london/manor-park-locksmith">Manor Park Locksmith</a></li>
+                        <li><a href="/london/plaistow-locksmith">Plaistow Locksmith</a></li>
+                        <li><a href="/london/poplar-locksmith">Poplar Locksmith</a></li>
+                        <li><a href="/london/canning-town-locksmith">Canning Town Locksmith</a></li>
+                        <li><a href="/london/bethnal-green-locksmith">Bethnal Green Locksmith</a></li>
+                        <li><a href="/london/bow-locksmith">Bow Locksmith</a></li>
+                        <li><a href="/london/chingford-locksmith">Chingford Locksmith</a></li>
+                        <li><a href="/london/leyton-locksmith">Leyton Locksmith</a></li>
+                        <li><a href="/london/east-ham-locksmith">East Ham Locksmith</a></li>
+                        <li><a href="/london/hackney-locksmith">Hackney Locksmith</a></li>
+                        <li><a href="/london/dalston-locksmith">Dalston Locksmith</a></li>
+                        <li><a href="/london/shoreditch-locksmith">Shoreditch Locksmith</a></li>
+                        <li class="title"><a href="/london/south-london-locksmith">Locksmith South East London</a></li>
+                        <li><a href="/london/gipsy-hill-locksmith">Gipsy Hill Locksmith</a></li>
+                        <li><a href="/london/norwood-locksmith">Norwood Locksmith</a></li>
+                        <li><a href="/london/oval-locksmith">Oval Locksmith</a></li>
+                        <li><a href="/london/lee-locksmith">Lee Locksmith</a></li>
+                        <li><a href="/london/new-cross-locksmith">New Cross Locksmith</a></li>
+                        <li><a href="/london/walworth-locksmith">Walworth Locksmith</a></li>
+                        <li><a href="/london/newington-locksmith">Newington Locksmith</a></li>
+                        <li><a href="/london/woolwich-locksmith">Woolwich Locksmith</a></li>
+                        <li><a href="/london/upper-norwood-locksmith">Upper Norwood Locksmith</a></li>
+                        <li><a href="/london/mottingham-locksmith">Mottingham Locksmith</a></li>
+                        <li><a href="/london/locksmith-crystal-palace">Crystal Palace Locksmiths</a></li>
+                        <li><a href="/london/east-dulwich-locksmith">East Dulwich Locksmith</a></li>
+                        <li><a href="/london/dulwich-locksmith">Dulwich Locksmith</a></li>
+                        <li><a href="/london/herne-hill-locksmith">Herne Hill Locksmith</a></li>
+                        <li><a href="/london/forest-hill-locksmith">Forest Hill Locksmith</a></li>
+                        <li><a href="/london/sydenham-locksmith">Sydenham Locksmith</a></li>
+                        <li><a href="/london/south-lambeth-locksmith">South Lambeth Locksmith</a></li>
+                        <li><a href="/london/new-eltham-locksmith">New Eltham locksmith</a></li>
+                        <li><a href="/london/plumstead-locksmith">Plumstead locksmith</a></li>
+                        <li><a href="/london/south-bank-locksmith">South Bank Locksmith</a></li>
+                        <li><a href="/london/eltham-locksmith">Eltham Locksmith</a></li>
+                        <li><a href="/london/greenwich-locksmith">Greenwich Locksmith</a></li>
+                        <li><a href="/london/deptford-locksmith">Deptford Locksmith</a></li>
+                        <li><a href="/london/catford-locksmith">Catford Locksmith</a></li>
+                        <li><a href="/london/camberwell-locksmith">Camberwell Locksmith</a></li>
+                        <li><a href="/london/brockley-locksmith">Brockley Locksmith</a></li>
+                        <li><a href="/london/blackheath-locksmith">Blackheath Locksmith 4U</a></li>
+                        <li><a href="/london/rotherhithe-locksmith">Rotherhithe Locksmith</a></li>
+                        <li><a href="/london/thamesmead-locksmith">Thamesmead Locksmith</a></li>
+                        <li><a href="/london/vauxhall-locksmith">Vauxhall Locksmith</a></li>
+                        <li><a href="/london/peckham-locksmith">Peckham Locksmith</a></li>
+                        <li><a href="/london/abbey-wood-locksmith">Abbey Wood Locksmith</a></li>
+                        <li><a href="/london/charlton-locksmith">Charlton Locksmith</a></li>
+                        <li><a href="/london/locksmith-bank">locksmith Bank</a></li>
+                        <li><a href="/london/southwark-locksmith">Southwark Locksmith</a></li>
+                        <li><a href="/london/lewisham-locksmith">Lewisham Locksmith</a></li>
+                        <li class="title"><a href="/london/south-west-london-locksmith">Locksmith South West
+                                London</a></li>
+                        <li><a href="/london/fulham-locksmith">Fulham Locksmith</a></li>
+                        <li><a href="/london/west-wimbledon-locksmith">West Wimbledon Locksmith</a></li>
+                        <li><a href="/london/wimbledon-locksmith">Wimbledon Locksmith</a></li>
+                        <li><a href="/london/putney-locksmith">Putney Locksmith</a></li>
+                        <li><a href="/london/mortlake-locksmith">Mortlake Locksmith</a></li>
+                        <li><a href="/london/barnes-locksmith">Barnes Locksmith</a></li>
+                        <li><a href="/london/wandsworth-locksmith">Wandsworth Locksmith</a></li>
+                        <li><a href="/london/battersea-locksmith">Battersea Locksmith</a></li>
+                        <li><a href="/london/west-brompton-locksmith">West Brompton Locksmith</a></li>
+                        <li><a href="/london/nine-elms-locksmith">Nine Elms Locksmith</a></li>
+                        <li><a href="/london/south-kensington-locksmith">South Kensington Locksmith</a></li>
+                        <li><a href="/london/earls-court-locksmith">Earls Court Locksmith</a></li>
+                        <li><a href="/london/stockwell-locksmith">Stockwell Locksmith</a></li>
+                        <li><a href="/locksmith-brompton">Locksmith Brompton</a></li>
+                        <li><a href="/london/balham-locksmith">Balham Locksmith</a></li>
+                        <li><a href="/london/clapham-locksmith">Clapham Locksmith</a></li>
+                        <li><a href="/london/knightsbridge-locksmith">Knightsbridge Locksmith</a></li>
+                        <li><a href="/london/locksmith-belgravia">locksmith Belgravia</a></li>
+                        <li><a href="/london/st-jamess-park-locksmith">St James's Park Locksmith</a></li>
+                        <li><a href="/london/victoria-locksmith">Victoria Locksmith</a></li>
+                        <li><a href="/london/st-jamess-locksmith">St James's Locksmith</a></li>
+                        <li><a href="/london/brixton-locksmith">Brixton Locksmith</a></li>
+                        <li><a href="/london/tooting-locksmith">Tooting Locksmith</a></li>
+                        <li><a href="/london/chelsea-locksmith">Chelsea Locksmith</a></li>
+                        <li><a href="/london/westminster-locksmith">Westminster Locksmith</a></li>
+                        <li class="title"><a href="/london/west-london-locksmith">Locksmith West London</a></li>
+                        <li><a href="/london/shepherds-bush-locksmith">Shepherds Bush Locksmith</a></li>
+                        <li><a href="/london/ealing-locksmith">Ealing Locksmith</a></li>
+                        <li><a href="/london/ladbroke-grove-locksmith">Ladbroke Grove Locksmith</a></li>
+                        <li><a href="/london/notting-hill-locksmith">Notting Hill Locksmith</a></li>
+                        <li><a href="/london/north-kensington-locksmith">North Kensington Locksmith</a></li>
+                        <li><a href="/london/maida-vale-locksmith">Maida Vale Locksmith</a></li>
+                        <li><a href="/london/holland-park-locksmith">Holland Park Locksmith</a></li>
+                        <li><a href="/london/west-kensington-locksmith">West Kensington Locksmith</a></li>
+                        <li><a href="/london/hanwell-locksmith">Hanwell Locksmith</a></li>
+                        <li><a href="/london/west-ealing-locksmith">West Ealing Locksmith</a></li>
+                        <li><a href="/london/chiswick-locksmith">Chiswick Locksmith</a></li>
+                        <li><a href="/london/acton-locksmith">Acton Locksmith</a></li>
+                        <li><a href="/london/north-acton-locksmith">North Acton Locksmith</a></li>
+                        <li><a href="/london/locksmith-little-venice">Locksmith Little Venice</a></li>
+                        <li><a href="/london/bayswater-locksmith">Bayswater Locksmith</a></li>
+                        <li><a href="/london/locksmith-fitzrovia">locksmith Fitzrovia</a></li>
+                        <li><a href="/london/soho-locksmith">Soho Locksmith</a></li>
+                        <li><a href="/london/regents-park-locksmith">Regents Park Locksmith</a></li>
+                        <li><a href="/london/hammersmith-locksmith">Hammersmith Locksmith</a></li>
+                        <li><a href="/london/mayfair-locksmith">Mayfair Locksmith</a></li>
+                        <li><a href="/london/paddington-locksmith">Paddington Locksmith</a></li>
+                        <li><a href="/locksmith-oxford">Locksmith Oxford</a></li>
+                    </ul>
+
+                </li>
+                <li class="menu__main">
+                    <a href="/services/">Locksmith London</a>
+                    <ul class="menu__sub">
+                        <li><a href="/garage-door-lock-replacement">Garage Door Lock Replacement</a></li>
+                        <li><a href="/british-standard-locks">British Standard Locks</a></li>
+                        <li><a href="/patio-door-lock-replacement">Patio Door Lock Replacement</a></li>
+                        <li><a href="/emergency-locksmith">Emergency Locksmith</a></li>
+                        <li><a href="/lock-outs">Lock Out</a></li>
+                        <li><a href="/lock-repair">Lock Repair</a></li>
+                        <li><a href="/door-lock-replacement">Door Lock Replacement</a></li>
+                        <li><a href="/pvcu-door-lock-replacement">PVCu Door Lock Replacement</a></li>
+                        <li><a href="/door-lock-installation">Door Lock Installation</a></li>
+                        <li><a href="/lock-change">Lock Change</a></li>
+                        <li><a href="/security-surveys">Security Survey</a></li>
+                        <li><a href="/open-car">Car Lockout Service</a></li>
+                        <li><a href="/commercial-locksmith">Commercial Locksmith</a></li>
+                        <li><a href="/van-lock-fitted">Van Lock Installation</a></li>
+                        <li><a href="/london-auto-locksmith">London Auto Locksmith</a></li>
+                        <li><a href="/window-lock-repairs">Window Lock Repairs</a></li>
+                        <li><a href="/smart-lock-installation">smart lock installation</a></li>
+                        <li><a href="/security-upgrade">Security Upgrade</a></li>
+                        <li><a href="/fresh-lock-installation">Fresh Lock Installation</a></li>
+                        <li><a href="/bicycle-locks">Bicycle Locks</a></li>
+                        <li><a href="/key-holding">Key Holding</a></li>
+                        <li><a href="/key-cutting-order">Key Cutting Order</a></li>
+                    </ul>
+                </li>
+                <li class="menu__main">
+                    <a href="/partners/">Greater London Locksmith</a>
+                    <ul class="menu__sub"></ul>
+                </li>
+                <li class="menu__main">
+                    <a href="/customers/">Security Products</a>
+                    <ul class="menu__sub"></ul>
+                </li>
+                <li class="menu__main">
+                    <a href="/projects/">Business Account</a>
+                    <ul class="menu__sub"></ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="banner">
+        <img src="images/banner.png" alt="" class="media">
+        <div class="container">
+            <div class="banner__block">
+                <div class="logo">
+                    <img src="images/logo 2.png">
+                </div>
+                <p class="banner__text">
+                    A team of UK based, DBS checked, fully accredited locksmiths who are on hand and available to
+                    assist, no matter how grave the situation. Whether it is early morning or late at night we pride
+                    ourselves on providing the best service with the highest level of professionalism at an affordable
+                    rate.
+                </p>
+                <form action="" class="form-postcode">
+                    <label for="code" class="search-code">
+                        <span><i class="ri-map-pin-line"></i></span>
+                        <input id="code" placeholder="Input your Postal Code" type="text" />
+                    </label>
+
+                    <button type="submit" class="btn btn-search-code">
+                        <i class="ri-search-line"></i>
+                        Find A Locksmith Near Me
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <section class="area">
+        <div class="container">
+            <div class="area__wrap">
+                <div class="area__info">
+                    <h2>Crime In My Area</h2>
+                    <p>How safe is your area? Use our search feature to find out your local crime statistics, and then
+                        call
+                        us for a free security consultation. We are your local emergency locksmith in London and beyond,
+                        and
+                        we are here for whatever you need. We can install a new security grill for your business, a
+                        smart
+                        lock for your home, or any other device you need to ensure your safety and security</p>
+                    <a href="#" class="btn btn-area">Save Your Area</a>
+                </div>
+                <div class="area__safe">
+                    <div class="area__presentation">
+                        <img src="./images/area.png" alt="crime">
+                        <div class="area__question">How safe is your area?</div>
+                    </div>
+                    <a href="" class="btn btn-blue">Explore</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2>Locksmith Services</h2>
+            <div class="services__items">
+                <a href="/" class="services__item"><i class="ri-bank-card-line"></i> <span>Access control</span></a>
+                <a href="/" class="services__item"><i class="ri-camera-3-line"></i> <span>CCTV Systems</span></a>
+                <a href="/" class="services__item"><i class="ri-safe-line"></i> <span>Safes</span></a>
+                <a href="/" class="services__item"><i class="ri-alarm-warning-line"></i> <span>Alarm system
+                        installation</span>
+                </a>
+                <a href="/" class="services__item"><i class="ri-caravan-line"></i> <span>Van Lock Fitted</span></a>
+                <a href="/" class="services__item"><i class="ri-shield-keyhole-line"></i> <span>Multipoint
+                        Locks</span></a>
+                <a href="/" class="services__item"><i class="ri-cpu-line"></i> <span>Security Upgrade
+                    </span></a>
+                <a href="/" class="services__item"><i class="ri-home-wifi-line"></i> <span>Yale Lock Installation
+                    </span></a>
+                <a href="/" class="services__item"><i class="ri-lock-password-line"></i> <span>Chubb Lock Installation
+                    </span></a>
+                <a href="/" class="services__item"><i class="ri-remote-control-line"></i> <span>Smart Lock Installation
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="guarantee">
+        <div class="container">
+            <div class="guarantee__wrap">
+                <div class="guarantee__list">
+                    <h3>Our Guarantee</h3>
+                    <ul>
+                        <li>Fully CRB qualified locksmith</li>
+                        <li>ISO certified (9001,45001) </li>
+                        <li>24/7 emergency service</li>
+                        <li>30 minutes response time</li>
+                        <li>10% Discount for website call out</li>
+                        <li>Full range of British standard locks (BS3621&TS007)></li>
+                        <li>6-month guarantee!</li>
+                    </ul>
+                </div>
+                <div class="guarantee__gallery">
+                    <figure class="guarantee__img">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/alltime-media/o/contents%2Faccreditation%2F4573e54cb3e266d90519d3707378f7ad.jpg_medium.webp?alt=media"
+                            alt="accreditation">
+                    </figure>
+                    <figure class="guarantee__img"><img
+                            src="https://firebasestorage.googleapis.com/v0/b/alltime-media/o/contents%2Faccreditation%2F279a406a3a61a39f57630f193712e11e.jpg_medium.webp?alt=media"
+                            alt=""></figure>
+                    <figure class="guarantee__img"><img
+                            src="https://firebasestorage.googleapis.com/v0/b/alltime-media/o/contents%2Faccreditation%2F253f0de73dc5715c37c22d2d6af4c04e.jpg_medium.webp?alt=media"
+                            alt=""></figure>
+
+                    <figure class="guarantee__img"><img
+                            src="https://firebasestorage.googleapis.com/v0/b/alltime-media/o/contents%2Faccreditation%2Fd65574ff9b02e04adf1d71c91da29c88.jpg_medium.webp?alt=media"
+                            alt=""></figure>
+                    <figure class="guarantee__img"><img
+                            src="https://firebasestorage.googleapis.com/v0/b/alltime-media/o/contents%2Faccreditation%2F18b30ebc4af06683de8975654deea270.jpg_medium.webp?alt=media"
+                            alt=""></figure>
+
+                    <figure class="guarantee__img">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/alltime-media/o/contents%2Faccreditation%2F61850d7f1e691aaabc04241be8d8c5e8.jpg_medium.webp?alt=media"
+                            alt="">
+                    </figure>
+                    <figure class="guarantee__img"><img
+                            src="https://firebasestorage.googleapis.com/v0/b/alltime-media/o/contents%2Faccreditation%2Feccc6cf419ccf23123763f9d9d647e6a.jpg_medium.webp?alt=media"
+                            alt=""></figure>
+                    <figure class="guarantee__img"><img
+                            src="https://firebasestorage.googleapis.com/v0/b/alltime-media/o/contents%2Faccreditation%2Fbe28c402997d45d081a682e555248d32.jpg_medium.webp?alt=media"
+                            alt=""></figure>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="post">
+        <div class="container">
+            <h2>Blog4U – Recent Posts</h2>
+            <div class="post__wrap">
+                <div class="post__item">
+                    <a href="#">
+                        <div class="post__header">
+                            <time class="post__publication">
+                                <span>Aug</span>
+                                <span class="number">31</span>
+                                <span>2022</span>
+                            </time>
+                            <img src="images/post-keys.png" alt="keys" class="post__media">
+                        </div>
+                    </a>
+                    <h3 class="post__title">How Does A Locksmith Change Door Locks?</h3>
+                    <div class="post__decription">When a locksmith is called to change the locks on a door at home,
+                        there are numerous things to consider. First, they’ll establish the situation: is this a new
+                        lock or an old one? </div>
+                    <a href="#" class="btn btn-more">Read more</a>
+                </div>
+                <div class="post__item">
+                    <a href="#">
+                        <div class="post__header">
+                            <time class="post__publication">
+                                <span>Sep</span>
+                                <span class="number">20</span>
+                                <span>2022</span>
+                            </time>
+                            <img src="images/post-lock.png" alt="lock" class="post__media">
+                        </div>
+                    </a>
+                    <h3 class="post__title">Reasons to Hire a Professional Locksmith in London in the Event of a
+                        Lock-Out</h3>
+                    <div class="post__decription">Many people don’t think about what they’d do
+                        if they were locked out of their homes until it actually happens</div>
+                    <a href="#" class="btn btn-more">Read more</a>
+                </div>
+                <div class="post__item">
+                    <a href="#">
+                        <div class="post__header">
+                            <time class="post__publication">
+                                <span>Aug</span>
+                                <span class="number">25</span>
+                                <span>2022</span>
+                            </time>
+                            <img src="images/post-property.png" alt="property" class="post__media">
+                        </div>
+                    </a>
+                    <h3 class="post__title">Can Our Bristol Locksmiths Take Your Property Security To The Next Level?
+                    </h3>
+                    <div class="post__decription">Our locksmiths in Bristol can bail you out if you’ve lost your keys or
+                        if your lock breaks, allowing you to gain access to any property...</div>
+                    <a href="#" class="btn btn-more">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <div class="container">
+            <h2>Client Reviews</h2>
+            <div class="reviews-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide reviews__item">
+                        <div class="reviews__rating" style="--rating:5"
+                            aria-label="Rating of this product is 5 out of 5.">
+                        </div>
+                        <p class="reviews__text">
+                            “The main door lock was not working properly called this locksmith near me and they arrived
+                            within next 2 hours and fixed within 1 hour.”
+                        </p>
+                        <div class="reviews__author">
+                            Michaell Mann
+                        </div>
+                    </div>
+                    <div class="swiper-slide reviews__item">
+                        <div class="reviews__rating" style="--rating:4"
+                            aria-label="Rating of this product is 4 out of 4.">
+                        </div>
+                        <p class="reviews__text">
+                            I called this company because the lock had seized up on my living room door I have just
+                            recently
+                            got 2 kittens and they were on the other side of the door when I called up the girl on the
+                            phone
+                            was so pleasant and understanding and the locksmith w…
+                        </p>
+                        <div class="reviews__author">
+                            Thomas Winterberg
+                        </div>
+                    </div>
+                    <div class="swiper-slide reviews__item">
+                        <div class="reviews__rating" style="--rating:4.7"
+                            aria-label="Rating of this product is 4.7 out of 5.">
+                        </div>
+                        <p class="reviews__text">
+                            Great company with great service they provided for our security locks. They fixed that in
+                            just
+                            20 minutes. Thanks!
+                        </p>
+                        <div class="reviews__author">
+                            Matthew Vaughn
+                        </div>
+                    </div>
+                    <div class="swiper-slide reviews__item">
+                        <div class="reviews__rating" style="--rating:4.2"
+                            aria-label="Rating of this product is 4.2 out of 5.">
+                        </div>
+                        <p class="reviews__text">
+                            Great company with great service they provided for our security locks. They fixed that in
+                            just
+                            20 minutes. Thanks 2!
+                        </p>
+                        <div class="reviews__author">
+                            Matthew Vaughn 2
+                        </div>
+                    </div>
+
+                </div>
+                <div class="reviews__nav">
+                    <div class="reviews-button-prev">&#8249</div>
+                    <div class="reviews-button-next">&#8250</div>
+                </div>
+            </div>
+
+            <div class="reviews-panel">
+
+                <a href="https://www.reviews.co.uk/company-reviews/store/keys4u-locksmith" rel="noreferrer"
+                    target="_blank" class="reviews-panel__link">
+                    <img src="/images/reviews.png" alt="reviews-logo">
+                    <p class="seo-text">collector reviews co uk </p>
+                </a>
+                <div class="reviews-panel__count">
+                    2031 Reviews
+                </div>
+
+                <div class="reviews-panel__ratings">
+                    <span class="star-ratings-rating">4.71</span>
+                    <div class="reviews__rating" style="--rating:4.71"
+                        aria-label="Rating of this product is 5 out of 5.">
+                    </div>
+                </div>
+
+                <div class="reviews-panel__recomended">
+                    <span class="reviews-panel__percent">94%</span>
+                    <div class="recomended__text">
+                        of reviewers recommend
+                        <span>Keys4U Locksmith</span>
+                    </div>
+                </div>
+
+                <a class="btn btn-blue" href="https://www.reviews.co.uk/company-reviews/store/keys4u-locksmith"
+                    rel="noreferrer" target="_blank">Write a review</a>
+
+            </div>
+
+    </section>
+
+    <section class="emergency-section">
+        <div class="container">
+            <h2>
+                Get Fast Emergency
+            </h2>
+            <p class="emergency-section__text">
+                Call Our Emergency Locksmith London team
+                now for a free quote, consultation and advice
+            </p>
+            <div class="buttons-group">
+                <a href="tel:03333052993" class="btn btn-red">
+                    <i class="ri-phone-line"></i> 033 3305 2993
+                </a>
+
+                <a href="/contact" class="btn btn-contact">
+                    <i class="ri-phone-fill"></i>Contact Us
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="container">
+            <h2>FAQs</h2>
+            <div class="details-wrap">
+                <details>
+                    <summary>
+                        <div class="details__mark">
+                            <span aria-label="mark"><i class="ri-question-line"></i></span>
+                        </div>
+                        <span>Why should I choose Keys4U?</span>
+                    </summary>
+                    <p>
+                        The tags <em>details</em> and <em>summary</em> have you covered.
+                    </p>
+                </details>
+                <details>
+                    <summary>
+                        <div class="details__mark">
+                            <span aria-label="mark"><i class="ri-question-line"></i></span>
+                        </div>
+                        <span>Can you guarantee a local locksmith will be sent out?</span>
+                    </summary>
+                    <p>
+                        The simple answer to whether a skilled locksmith can remove a broken key that has snapped in a
+                        lock is yes. A professional locksmith will be able to remove snapped keys from all types of
+                        locks, such as removing snapped keys from door locks such as Yale locks, Euro cylinders, Garage
+                        Door Locks, Padlocks and Window locks. A professional locksmith can use specialised tools that
+                        most general tradespeople or householders might not have in their toolkits.
+                    </p>
+                </details>
+                <details>
+                    <summary>
+                        <div class="details__mark">
+                            <span aria-label="mark"><i class="ri-question-line"></i></span>
+                        </div>
+                        <span>Do you ensure locksmiths you use are checked as being suitable?</span>
+                    </summary>
+                    <p>
+                        Yes. All our locksmiths will be on site within half an hour of taking your order.
+                    </p>
+                </details>
+                <details>
+                    <summary>
+                        <div class="details__mark">
+                            <span aria-label="mark"><i class="ri-question-line"></i></span>
+                        </div>
+                        <span>I’ve heard that getting into premises can take time. How long will the process
+                            take?</span>
+                    </summary>
+                    <p>
+                        Yes. All our locksmiths will be on site within half an hour of taking your order.
+                    </p>
+                </details>
+                <details>
+                    <summary>
+                        <div class="details__mark">
+                            <span aria-label="mark"><i class="ri-question-line"></i></span>
+                        </div>
+                        <span>Do you sell British Standard locks?</span>
+                    </summary>
+                    <p>
+                        Yes. All our locksmiths will be on site within half an hour of taking your order.
+                    </p>
+                </details>
+                <details>
+                    <summary>
+                        <div class="details__mark">
+                            <span aria-label="mark"><i class="ri-question-line"></i></span>
+                        </div>
+                        <span>How do locksmiths actually enter premises?</span>
+                    </summary>
+                    <p>
+                        Yes. All our locksmiths will be on site within half an hour of taking your order.
+                    </p>
+                </details>
+                <details>
+                    <summary>
+                        <div class="details__mark">
+                            <span aria-label="mark"><i class="ri-question-line"></i></span>
+                        </div>
+                        <span>What are your payment terms?</span>
+                    </summary>
+                    <p>
+                        Yes. All our locksmiths will be on site within half an hour of taking your order.
+                    </p>
+                </details>
+                <details>
+                    <summary>
+                        <div class="details__mark">
+                            <span aria-label="mark"><i class="ri-question-line"></i></span>
+                        </div>
+                        <span>Are you UK-wide?</span>
+                    </summary>
+                    <p>
+                        Yes. All our locksmiths will be on site within half an hour of taking your order.
+                    </p>
+                </details>
+                <details>
+                    <summary>
+                        <div class="details__mark">
+                            <span aria-label="mark"><i class="ri-question-line"></i></span>
+                        </div>
+                        <span>Do you offer Emergency Locksmith Services?</span>
+                    </summary>
+                    <p>
+                        Yes. All our locksmiths will be on site within half an hour of taking your order.
+                    </p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__main">
+            <div class="container">
+                <div class="footer__flex">
+                    <div class="logo">
+                        <img src="images/logo 2.png">
+                    </div>
+                    <div class="footer__adress">
+                        <p>45 West Street</p>
+                        <p>SOUTH WEST LONDON 12</p>
+                        <p>SW41 0YA</p>
+                    </div>
+                    <div>
+                        Company registration number: <br> 7565878e.
+                    </div>
+                    <div>
+                        <a href="tel:03333052993" class="btn btn-orange">
+                            <i class="ri-phone-line"></i>
+                            033 3305 2993
+                        </a>
+                        <ul class="social-icons">
+                            <li><a class="facebook" href="#"><i class="ri-facebook-circle-fill"></i></a></li>
+
+                            <li><a class="twitter" href="#"><i class="ri-twitter-fill"></i></a></li>
+                            <li><a class="dribbble" href="#"><i class="ri-youtube-fill"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__sub">
+            ©2022 Keys4u Locksmith | Privacy Policy | Terms and Conditions | Sitemap
+        </div>
+    </footer>
+
+    <script type="module">
+        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
+        Swiper.use(Swiper.Navigation);
+        const reviews = new Swiper('.reviews-slider', {
+            spaceBetween: 20,
+            slidesPerView: 3,
+            direction: "vertical",
+            loop: true,
+            freeMode: true,
+            // autoHeight:true,
+            on: {
+                init: (swiper) => {
+                    let totalGap = swiper.passedParams.spaceBetween * (swiper.passedParams.slidesPerView - 1);
+                    let containerHeight = swiper.passedParams.slidesPerView * swiper.slides[0].clientHeight + totalGap;
+                    swiper.el.style.height = containerHeight + 'px';
+                },
+            },
+            navigation: {
+                nextEl: '.reviews-button-next',
+                prevEl: '.reviews-button-prev',
+            },
+            breakpoints: {
+                680: {
+                    direction: "horizontal",
+
+                }
+            }
+        });
+        const burgerMenu = document.getElementById('burger-menu');
+        const menuList = document.getElementById('main-menu');
+        burgerMenu.addEventListener('click', () => {
+            burgerMenu.classList.toggle('open');
+            menuList.classList.toggle('open');
+        })
+        const menuItems = document.querySelectorAll('.menu__main');
+        menuItems.forEach(item => item.addEventListener('click', (e) => {
+            e.preventDefault();
+            const submenu = item.querySelector('.menu__sub');
+            submenu.classList.toggle('open');
+
+        }))
+    </script>
+</body>
+
+</html>

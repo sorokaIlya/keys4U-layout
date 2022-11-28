@@ -1,0 +1,42 @@
+@mixin detail-drop($icon:"▲", $color:$yellow) {
+    details{
+        border: 1px solid #E6E6E6;
+        margin-bottom: 20px;
+    }
+    details[open] summary ~ * {
+        animation: open 0.3s ease-in-out;
+      }
+      
+      @keyframes open {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    
+      details summary::-webkit-details-marker {
+        display: none;
+      }
+    
+      
+      details summary:after {
+        content: $icon;
+        color: $color;
+        position: absolute;
+        line-height: 0;
+        font-size: 14px;
+        right: 20px;
+        top: 30px;
+        transform-origin: center;
+        transition: 200ms linear;
+      }
+      details[open] summary:after {
+        transform: rotate(60deg);
+      }
+      details summary {
+        outline: 0;
+      }
+      
+}
